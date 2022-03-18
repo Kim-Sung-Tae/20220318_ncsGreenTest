@@ -4,6 +4,7 @@ var time = new Date();
 
 var getsend = require('./api/getsend')
 var postsend = require('./api/postsend')
+var sqlsend = require('./api/sqlsend')
 
 
 app.get('/',(req,res)=>{
@@ -13,6 +14,7 @@ app.get('/',(req,res)=>{
 
 app.use('/getsend',getsend)
 app.use('/postsend',postsend)
+app.use('/sqlsend',sqlsend)
 
 
 

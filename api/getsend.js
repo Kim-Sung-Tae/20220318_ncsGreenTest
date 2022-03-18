@@ -10,6 +10,10 @@ router.get('/',(req,res)=>{
 })
 
 
+router.get('/getjson',(req,res)=>{
+    res.send( { "url":'/getsend/getjson'} );
+})
+
 
 
 
