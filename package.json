@@ -1,0 +1,26 @@
+{
+  "name": "kst.js",
+  "version": "1.0.0",
+  "description": "",
+  "main": "kst.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "server" : "nodemon kst.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Kim-Sung-Tae/20220318_ncsGreenTest.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Kim-Sung-Tae/20220318_ncsGreenTest/issues"
+  },
+  "homepage": "https://github.com/Kim-Sung-Tae/20220318_ncsGreenTest#readme",
+  "dependencies": {
+    "concurrently": "^7.0.0",
+    "express": "^4.17.3",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.15"
+  }
+}
